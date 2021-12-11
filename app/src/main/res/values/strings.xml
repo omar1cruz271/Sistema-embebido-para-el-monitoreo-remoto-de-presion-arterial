@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_opn">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Pacientes</string>
+    <string name="nav_item_notifications">Registrar paciente</string>
+    <string name="nav_item_presiones">Presiones recibidas</string>
+    <string name="nav_item_graficas">Gráficas de presiones</string>
+    <!-- navigation drawer item labels -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_friends</item>
+        <item>@string/nav_item_notifications</item>
+        <item>@string/nav_item_presiones</item>
+        <item>@string/nav_item_graficas</item>
+    </string-array>
+    <string name="title_presiones">Presiones recibidas</string>
+    <string name="title_graficas">Gráficas presiones</string>
+    <string name="title_messages">Pacientes</string>
+    <string name="title_friends">Registrar paciente</string>
+    <string name="title_home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Aqui van los forms-->
+    <string name="cons">Registro de presiones</string>
+    <string name="reg">Registrar paciente</string>
+    <string name="lista">Lista de pacientes</string>
+    <string name="xsops">Opciones</string>
+
+    <string-array name="sexo_array">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+
+</resources>

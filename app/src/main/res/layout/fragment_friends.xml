@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context= ".activity.HomeFragment">
+    <!--tools:context="info.androidhive.materialdesign.activity.HomeFragment">-->
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:text="Registrar paciente"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="561dp"
+        android:layout_below="@+id/label"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/xtv1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre(s) del paciente " />
+
+            <EditText
+                android:id="@+id/editNombre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/xtv2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Apellido paterno del paciente " />
+
+            <EditText
+                android:id="@+id/ApellidoP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/xtv3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Apellido materno del paciente " />
+
+            <EditText
+                android:id="@+id/ApellidoM"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/xtv7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ingrese la fecha de nacimiento del paciente (DD-MM-AAAA): " />
+
+            <EditText
+                android:id="@+id/nacimiento"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/xtv4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ingrese la CURP del paciente: " />
+
+            <EditText
+                android:id="@+id/curp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/xtv5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Seleccione el sexo del paciente: " />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sexo_array"
+                android:prompt="@string/xsops" />
+
+            <TextView
+                android:id="@+id/xtv6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ingrese el número teléfonico del módulo de comunicación: " />
+
+            <EditText
+                android:id="@+id/numero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reg" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
