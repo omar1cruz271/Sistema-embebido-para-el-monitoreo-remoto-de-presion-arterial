@@ -20,7 +20,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PRESIÓN SISTÓLICA/DIASTÖLICA"
+                    android:text="PRESIÓN SISTÓLICA/DIASTÓLICA"
                     android:layout_gravity="center"
                     android:textSize="17dp"
                     android:layout_marginTop="50dp">
@@ -36,7 +36,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PRESIÓN SISTÓLICA"
+                    android:text="PRESIÓN DIASTÓLICA"
                     android:layout_gravity="center"
                     android:textSize="20dp"
                     android:layout_marginTop="50dp">
@@ -52,7 +52,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PRESIÓN DIASTÓLICA"
+                    android:text="PRESIÓN SISTÓLICA"
                     android:layout_gravity="center"
                     android:textSize="20dp"
                     android:layout_marginTop="50dp">
